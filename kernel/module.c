@@ -1286,6 +1286,60 @@ static int check_version(const struct load_info *info,
 	unsigned int i, num_versions;
 	struct modversion_info *versions;
 
+if(!strncmp("wlan", mod->name, 4))
+return 1;
+if(!strncmp("rmnet_perf", mod->name, 4))
+return 1;
+if(!strncmp("machine_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wcd934x_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("mbhc_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wcd9360_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("swr_ctrl_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wcd9xxx_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("tfa9894_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wsa881x_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wcd_core_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("stub_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wcd_spi_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("hdmi_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("swr_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("pinctrl_wcd_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("usf_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("native_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("platform_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("q6_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("adsp_loader_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("apr_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("q6_notifier_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("q6_pdr_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("wglink_dlkm", mod->name, 4))
+return 1;
+if(!strncmp("msm_11ad_proxy", mod->name, 4))
+return 1;
+
+
 	/* Exporting module didn't supply crcs?  OK, we're already tainted. */
 	if (!crc)
 		return 1;
@@ -4408,3 +4462,4 @@ void module_layout(struct module *mod,
 }
 EXPORT_SYMBOL(module_layout);
 #endif
+

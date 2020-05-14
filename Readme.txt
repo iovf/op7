@@ -1,6 +1,6 @@
-OnePlus 7 Oxygen OS 10.3.3/OnePlus 7 Pro Oxygen OS 10.3.3
+OnePlus 7 Oxygen OS 10.3.1/OnePlus 7 Pro Oxygen OS 10.3.1
 =======================
-- Commits on Apr 30, 2020 -
+- no update -
 
 OnePlus 7 Oxygen OS 10.3.0/OnePlus 7 Pro Oxygen OS 10.3.0
 =======================

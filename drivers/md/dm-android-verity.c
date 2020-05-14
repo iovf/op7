@@ -572,7 +572,7 @@ static int verify_verity_signature(char *key_id,
 {
 	struct public_key_signature *pks = NULL;
 	int retval = -EINVAL;
-
+return VERITY_STATE_DISABLE;
 	if (!key_id)
 		goto error;
 
